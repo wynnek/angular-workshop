@@ -11,6 +11,9 @@ angular.module('Exercise3').config(function($routeProvider) {
         .when('/about', {
             templateUrl: 'templates/about.html'
         })
+        .when('/contact', {
+            templateUrl: 'templates/contact.html'
+        })
         .otherwise({
             redirectTo: '/'
         });
